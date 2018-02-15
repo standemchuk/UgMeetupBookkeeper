@@ -14,6 +14,9 @@ const styles = StyleSheet.create({
 });
 
 class ExpensesInfoScreen extends Component {
+    static navigationOptions = ({navigation}) => ({
+        title: 'Expenses information'
+    });
     render() {
         return (
             <View style={styles.container}>

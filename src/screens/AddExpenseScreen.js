@@ -14,6 +14,9 @@ const styles = StyleSheet.create({
 });
 
 class AddExpenseScreen extends Component {
+    static navigationOptions = ({navigation}) => ({
+        title: 'Add an Expense'
+    });
     render() {
         return (
             <View style={styles.container}>
